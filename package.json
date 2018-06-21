@@ -1,0 +1,43 @@
+{
+  "name": "initwebpack",
+  "version": "1.0.0",
+  "description": "For init webpack for use with mis project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "Auttawut Wiriyakreng",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "config": {
+    "project": {
+      "url": "/k2/ot",
+      "selfServer": false
+    },
+    "gulp": {
+      "scripts": {
+        "src": "resources/assets/scripts/*.js",
+        "dest": "public/js"
+      },
+      "styles": {
+        "src": "resources/assets/styles/*.sass",
+        "dest": "public/css"
+      }
+    }
+  }
+}
